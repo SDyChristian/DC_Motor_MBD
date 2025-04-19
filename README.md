@@ -11,6 +11,10 @@ The dynamic model of the DC motor was built using components from the Simscape l
 
 ## Current PI Control
 
-![DC Motor Diagram](Images/PID_DCMotorDiagram.PNG)
+![PI](Images/PID_DCMotorDiagram.PNG)
 
-This simulation implements a Proportional-Integral (PI) current controller. A manual switch block allows toggling between a tracking task and a regulation task as the reference input.  
+This simulation implements a Proportional-Integral (PI) current controller. A manual switch block allows toggling between a tracking task and a regulation task as the reference input. 
+
+The tuning process was based on transfer function analysis using the pole placement method, taking into account the natural dynamics of the current.
+
+![Tunning](Images/Tunning.png)
