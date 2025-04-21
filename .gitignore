@@ -1,0 +1,4 @@
+#Ignore auto-generated folders from Simulink/SimScape
+
+slprj/
+*_grt_rtw/
